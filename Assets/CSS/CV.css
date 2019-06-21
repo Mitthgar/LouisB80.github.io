@@ -1,0 +1,103 @@
+body, html {
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+.bg-image {
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.bg-text {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  height: auto;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+}
+.container-fluid{
+  background-image: url("../IMG/espace.jpg");
+  background-attachment: fixed;
+}
+.zoomInDown{
+  animation-duration: 1s;
+  animation-delay: 200ms;
+  animation-iteration-count: 1;
+}
+.fctBold{
+  font-weight: bold;
+}
+.dltMargin {
+  margin: 0;
+}
+.fab {
+  font-size: 40px;
+  color: darkBlue;
+}
+.starsColor{
+  color: yellow;
+}
+#bg1{
+  color: white;
+  background-image: url("../IMG/ecran.jpg");
+  height: 400px;
+}
+#bg2{
+  color: white;
+  background-image: url("../IMG/clavier.jpg");
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#bg3{
+  color: white;
+  background-image: url("../IMG/bureau.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#bg4{
+  color: white;
+  background-image: url("../IMG/chaise.jpg");
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(3px);
+}
+#bg5{
+  color: white;
+  background-image: url("../IMG/image2.jpg");
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#bg6{
+  color: white;
+  background-image: url("../IMG/image2.jpg");
+  height: 400px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
