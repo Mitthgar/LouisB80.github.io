@@ -58,7 +58,8 @@ body, html
 }
 .container-fluid
 {
-  background-image: url("../IMG/espace.jpg");
+  background-image: url("../IMG/city.jpg");
+  background-size: contain;
   background-attachment: fixed;
 }
 .zoomInDown{
