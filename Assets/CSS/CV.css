@@ -62,30 +62,37 @@ body, html
   background-size: contain;
   background-attachment: fixed;
 }
-.zoomInDown{
+.zoomInDown
+{
   animation-duration: 1s;
   animation-delay: 200ms;
   animation-iteration-count: 1;
 }
-.fctBold{
+.fctBold
+{
   font-weight: bold;
 }
-.dltMargin {
+.dltMargin
+{
   margin: 0;
 }
-.fab {
+.fab
+{
   font-size: 40px;
   color: darkBlue;
 }
-.starsColor{
+.starsColor
+{
   color: yellow;
 }
-#bg1{
+#bg1
+{
   color: white;
   background-image: url("../IMG/ecran.jpg");
   height: 400px;
 }
-#bg2{
+#bg2
+{
   color: white;
   background-image: url("../IMG/clavier.jpg");
   height: 400px;
@@ -94,7 +101,8 @@ body, html
   background-repeat: no-repeat;
   background-size: cover;
 }
-#bg3{
+#bg3
+{
   color: white;
   background-image: url("../IMG/bureau.jpg");
   height: 500px;
@@ -103,7 +111,8 @@ body, html
   background-repeat: no-repeat;
   background-size: cover;
 }
-#bg4{
+#bg4
+{
   color: white;
   background-image: url("../IMG/chaise.jpg");
   height: 400px;
@@ -113,7 +122,8 @@ body, html
   background-size: cover;
   filter: blur(3px);
 }
-#bg5{
+#bg5
+{
   color: white;
   background-image: url("../IMG/image2.jpg");
   height: 400px;
@@ -122,7 +132,8 @@ body, html
   background-repeat: no-repeat;
   background-size: cover;
 }
-#bg6{
+#bg6
+{
   color: white;
   background-image: url("../IMG/image2.jpg");
   height: 400px;
@@ -135,15 +146,28 @@ body, html
 {
   margin-top: 25px;
 }
-@media screen and (min-width: 200px) and (max-width: 640px)  {
+@media screen and (min-width: 200px) and (max-width: 640px)
+{
   .carousel-inner ul
   {
     text-align: left;
     margin-left: 30px;
   }
-  .carousel-indicators > li {
+  .carousel-indicators > li
+  {
     border-radius: 50%;
     height: 50px;
     width: 50px;
+  }
+  .container-fluid
+  {
+    background-image: url();
+  }
+}
+@media screen and (min-width : 640px)
+{
+  .jumbotron
+  {
+    margin-bottom: 300px;
   }
 }
