@@ -1,10 +1,37 @@
-body, html {
+body, html
+{
   height: 100%;
 }
-* {
+*
+{
   box-sizing: border-box;
 }
-.bg-image {
+.rounded-circle
+{
+  max-height: 200px;
+}
+.linkColor a
+{
+  color: #EDC185;
+}
+.carousel-inner
+{
+  min-height: 400px;
+}
+.carousel-inner ul
+{
+  list-style-type: none;
+}
+.carousel-indicators > li
+{
+  height: 10px;
+}
+.underligne
+{
+  text-decoration: underline;
+}
+.bg-image
+{
   filter: blur(3px);
   -webkit-filter: blur(3px);
   background-position: center;
@@ -12,7 +39,8 @@ body, html {
   background-size: cover;
   background-attachment: fixed;
 }
-.bg-text {
+.bg-text
+{
   color: white;
   font-weight: bold;
   position: absolute;
@@ -28,7 +56,8 @@ body, html {
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
   color: white;
 }
-.container-fluid{
+.container-fluid
+{
   background-image: url("../IMG/espace.jpg");
   background-attachment: fixed;
 }
@@ -100,4 +129,20 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+#return
+{
+  margin-top: 25px;
+}
+@media screen and (min-width: 200px) and (max-width: 640px)  {
+  .carousel-inner ul
+  {
+    text-align: left;
+    margin-left: 30px;
+  }
+  .carousel-indicators > li {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+  }
 }
